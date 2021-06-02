@@ -142,37 +142,3 @@ function AuthPage() {
 }
 
 export default AuthPage;
-
-
-
-        // const handleLogin = async () => {
-        //     try {
-        //         await axios.post('/api/auth/login', { ...form }, {
-        //             headers: {
-        //                 'Content-Type': 'application/json'
-        //             }
-        //         })
-        //         .then(res => login(res.data.token, res.data.userId))
-        //     } catch (e) {
-        //         console.log(e);
-        //     }
-        // }
-
-
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault()
-    //     await Axios.post('/auth/registration', {...form})
-    //     .then(res => console.log(res))
-    // }
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault()
-    //     try {
-    //         await axios.post('/api/auth/registration', { ...form }, {
-    //             headers: {
-    //                 'Content-Type': 'application/json'
-    //             }
-    //         }).then(res => console.log(res))
-    //     } catch(err) {
-    //         console.log(err);
-    //     }
-    // }
