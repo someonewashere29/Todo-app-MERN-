@@ -9,7 +9,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\" "
   },
   "keywords": [],
-  "author": "Marsel Gaynatullin <m.gaynatullin@mail.ru>",
+  "author": "Inkognito",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
